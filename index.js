@@ -1,7 +1,8 @@
 
 
 function handleClick(){
-    alert("clicky click")
+    let audio = new Audio("sounds/kick-bass.mp3");
+    audio.play()
 }
 
 for(let i = 0; i < document.querySelectorAll(".drum").length; i++){
