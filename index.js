@@ -9,6 +9,14 @@ for(let i = 0; i < document.querySelectorAll(".drum").length; i++){
 
     let buttonInnerHTML = this.innerHTML;
 
+    switch (buttonInnerHTML) {
+        case "w":
+        let audio = new Audio("sounds/crash.mp3");
+        audio.play()
+            break;
     
+        default:
+            break;
+    }
 }
 
