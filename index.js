@@ -1,9 +1,3 @@
-//audio function
-function handleClick(){
-    // let audio = new Audio("sounds/kick-bass.mp3");
-    audio.play()
-}
-
 
 //detects button click
 for(let i = 0; i < document.querySelectorAll(".drum").length; i++){
@@ -12,8 +6,6 @@ for(let i = 0; i < document.querySelectorAll(".drum").length; i++){
         let buttonInnerHTML = this.innerHTML;
 
         makeSound(buttonInnerHTML)
-
-
 
     })
 
