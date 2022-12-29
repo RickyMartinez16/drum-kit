@@ -18,6 +18,8 @@ document.addEventListener("keydown", function (e){
     buttonAnimation(e.key);
 })
 
+
+//make sound function
 function makeSound(key){
     switch (key) {
         case "w":
@@ -62,7 +64,7 @@ function makeSound(key){
 }
 
 
-//button animation function
+//button animation
 function buttonAnimation(currentKey){
     let activeButton = document.querySelector("." + currentKey);
     activeButton.classList.add("pressed");
